@@ -3,11 +3,11 @@ import TOBMainPicture from "../Images/TOBMainPicture.png";
 
 const TOB = (props) => {
   return (
-    <main class="flex">
-      <div class=" w-3/6 h-screen ">
-        <img src={TOBMainPicture} class="h-screen" />
+    <main class="flex flex-col md:flex-row">
+      <div class=" md:w-3/6 md:h-screen flex items-center justify-center bg-black">
+        <img src={TOBMainPicture} class="md:h-screen" />
       </div>
-      <div class="flex flex-col items-center justify-center h-screen w-3/6 gap-6 bg-black">
+      <div class="flex flex-col items-center justify-center h-screen md:w-3/6 gap-6 bg-black">
       <button class="p-2 border-2 border-gray-500 rounded-xl text-gray-500 text-xl bg-black hover:bg-gray-500 hover:text-black w-64"
         onClick={props.equipment}>
           Equipment

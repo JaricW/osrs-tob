@@ -3,11 +3,12 @@ import XarpusPicture from "../Images/XarpusPicture.png"
 
 const Xarpus = (props) => {
     return (
-        <main class="flex bg-black ">
-        <div class=" w-3/6 h-screen flex justify-center items-center">
+        <main class="flex flex-col md:flex-row bg-black ">
+        <div class="md:w-3/6 md:h-screen flex flex-col justify-center items-center">
+        <h2 class="text-white text-xl text-center p-4">Xarpus</h2>
           <img src={XarpusPicture} class="max-h-screen p-4" />
         </div>
-        <div class="flex flex-col items-center justify-center gap-4 p-4 w-3/6">
+        <div class="flex flex-col items-center justify-center gap-4 p-4 md:w-3/6">
           <h2 class="text-red-800 text-2xl">DO</h2>
           <ul class="text-purple-800 text-center">
             <li>Stand on the skeletons spawning at the start</li>

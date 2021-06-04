@@ -5,7 +5,8 @@ import InventoryPicture from "../Images/InventoryPicture.PNG"
 const Equipment = (props) => {
     return (
         <main class="flex flex-col bg-black h-screen">
-            <div class="flex mt-10">
+            <h2 class="text-white text-xl text-center p-4 mt-4">Equipment</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center mt-10">
       <div class=" w-3/6 h-10/12 flex justify-center items-center">
         <img src={EquipmentPicture} class="max-h-screen p-4" />
       </div>
