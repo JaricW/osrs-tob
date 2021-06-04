@@ -6,7 +6,7 @@ const Bloat = (props) => {
         <main class="flex bg-black flex-col md:flex-row">
         <div class=" md:w-3/6 md:h-screen flex flex-col justify-center items-center">
         <h2 class="text-white text-xl text-center p-4">Pestilent Bloat</h2>
-          <img src={BloatPicture} class="max-h-screen p-4" />
+          <img src={BloatPicture} class="max-h-96 p-4" />
         </div>
         <div class="flex flex-col items-center justify-center gap-4 p-4 md:w-3/6">
           <h2 class="text-red-800 text-2xl">DO</h2>
